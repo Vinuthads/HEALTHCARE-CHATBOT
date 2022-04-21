@@ -1,0 +1,20 @@
+MY SQL MUST BE INSTALLED IN YOUR DEVICE
+ALSO YOU MUST INSTALL MY SQL CONNECTOR USING THE FOLLOWING COMMAND
+pip install mysql-connector-python
+
+CREATE ACCOUNT IN MYSQL OR YOU CAN ALSO USE THE ROOT ACCOUNT ACCORDING TO YOUR CONVINIENCE
+
+1)LOGIN TO MYSQL WITH THE ACCOUNT OF YOUR CHOICE
+2)CREATE DATABASE PRO USING THE FOLLOWING COMMAND:
+CREATE DATABASE PRO;
+3)AFTER CREATING THE DATABASE USE THAT DATABASE BY ENTERING 
+USE PRO; 
+QUERY
+4)NOW CREATE TABLE USING THE QUERY:
+CREATE TABLE USR(UID VARCHAR(20) PRIMARY KEY,PWD VARCHAR(20),PHNO VARCHAR(10),EMAIL VARCHAR(30));
+--------------------------------------------------------------------------------------------------------------------
+
+IN THE FILES login.py and register.py change the host,user,password,database to the appropriate values(i.e the username of the account and the password in 
+which the database is present and set the database value to pro) 
+****these values are found in the mysql.connector.connect() function *****
+
